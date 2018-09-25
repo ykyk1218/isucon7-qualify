@@ -3,7 +3,7 @@ Description = isucon7 benchmark application
 
 [Service]
 WorkingDirectory=/home/ubuntu/bench
-ExecStart = /home/ubuntu/bench/bin/bench -workermode -portal https://portal.isu.k0y.org
+ExecStart = /home/ubuntu/bench/bin/bench -workermode -portal https://127.0.0.1
 
 Restart   = always
 Type      = simple
